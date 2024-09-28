@@ -1,0 +1,18 @@
+
+name: runa_matrix
+description: A matrix of floating rune symbols with background music in Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0  # Audio playback package
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/1.mp3  # Your music file here
